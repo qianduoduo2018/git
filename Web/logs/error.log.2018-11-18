@@ -1,0 +1,11 @@
+2018-11-18 23:32:34 [ pool-1-thread-5:139 ] - [ ERROR ] 异常
+net.sf.json.JSONException: A JSONObject text must begin with '{' at character 0 of 
+	at net.sf.json.util.JSONTokener.syntaxError(JSONTokener.java:512)
+	at net.sf.json.JSONObject._fromJSONTokener(JSONObject.java:881)
+	at net.sf.json.JSONObject._fromString(JSONObject.java:1102)
+	at net.sf.json.JSONObject.fromObject(JSONObject.java:175)
+	at net.sf.json.JSONObject.fromObject(JSONObject.java:145)
+	at com.mx.util.Data.run(Data.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

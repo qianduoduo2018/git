@@ -1,0 +1,62 @@
+2018-12-13 15:24:23 [ pool-2-thread-7:211221 ] - [ ERROR ] 1544685660   {"errcode":0,"msg":"接收数据成功！"}
+2018-12-13 15:25:25 [ pool-2-thread-4:273115 ] - [ ERROR ] 1544685865   {"errcode":0,"msg":"接收数据成功！"}
+2018-12-13 15:26:24 [ pool-2-thread-10:332866 ] - [ ERROR ] 1544685922   {"errcode":0,"msg":"接收数据成功！"}
+2018-12-13 15:27:25 [ pool-2-thread-2:393496 ] - [ ERROR ] 1544685982   {"errcode":0,"msg":"接收数据成功！"}
+2018-12-13 15:28:26 [ pool-2-thread-15:454769 ] - [ ERROR ] 1544686042   {"errcode":0,"msg":"接收数据成功！"}
+2018-12-13 15:29:27 [ pool-2-thread-10:515483 ] - [ ERROR ] 1544686104   {"errcode":0,"msg":"接收数据成功！"}
+2018-12-13 15:30:29 [ pool-2-thread-1:576960 ] - [ ERROR ] 1544686164   {"errcode":0,"msg":"接收数据成功！"}
+2018-12-13 15:30:54 [ pool-1-thread-9:602271 ] - [ ERROR ] 1544686226   {"errcode":0,"msg":"接收数据成功！"}
+2018-12-13 15:31:46 [ pool-2-thread-12:654794 ] - [ ERROR ] 1544686251   {"errcode":0,"msg":"接收数据成功！"}
+2018-12-13 15:33:05 [ pool-2-thread-9:733524 ] - [ ERROR ] 请求返回:408(http://47.96.103.64/public/api/datastore/store)
+2018-12-13 15:33:05 [ pool-2-thread-9:733525 ] - [ ERROR ] 1544686305   null
+2018-12-13 15:33:31 [ pool-2-thread-9:759471 ] - [ ERROR ] 1544686383   {"errcode":0,"msg":"接收数据成功！"}
+2018-12-13 15:34:32 [ pool-2-thread-10:820505 ] - [ ERROR ] 1544686408   {"errcode":0,"msg":"接收数据成功！"}
+2018-12-13 15:35:33 [ pool-2-thread-8:881545 ] - [ ERROR ] 1544686469   {"errcode":0,"msg":"接收数据成功！"}
+2018-12-13 15:36:34 [ pool-2-thread-10:942821 ] - [ ERROR ] 1544686530   {"errcode":0,"msg":"接收数据成功！"}
+2018-12-13 15:37:35 [ pool-2-thread-7:1003547 ] - [ ERROR ] 1544686592   {"errcode":0,"msg":"接收数据成功！"}
+2018-12-13 15:38:36 [ pool-2-thread-10:1064906 ] - [ ERROR ] 1544686652   {"errcode":0,"msg":"接收数据成功！"}
+2018-12-13 15:39:37 [ pool-2-thread-14:1125589 ] - [ ERROR ] 1544686714   {"errcode":0,"msg":"接收数据成功！"}
+2018-12-13 15:41:00 [ pool-2-thread-14:1208162 ] - [ ERROR ] 发生异常 msg={}
+org.apache.http.NoHttpResponseException: 47.96.103.64:80 failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:141)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.mx.util.HttpClientUtil.doPost1(HttpClientUtil.java:231)
+	at com.mx.util.Database.run(Database.java:120)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-13 15:41:27 [ pool-1-thread-11:1235772 ] - [ ERROR ] 请求返回:408(http://47.96.103.64/public/api/datastore/store)
+2018-12-13 15:41:27 [ pool-1-thread-11:1235772 ] - [ ERROR ] 1544686774   null
+2018-12-13 15:41:46 [ pool-2-thread-14:1254442 ] - [ ERROR ] 1544686885   {"errcode":0,"msg":"接收数据成功！"}
+2018-12-13 15:42:40 [ pool-2-thread-8:1308570 ] - [ ERROR ] 1544686909   {"errcode":0,"msg":"接收数据成功！"}
+2018-12-13 15:43:42 [ pool-2-thread-15:1370144 ] - [ ERROR ] 1544686957   {"errcode":0,"msg":"接收数据成功！"}
+2018-12-13 15:44:42 [ pool-2-thread-15:1430552 ] - [ ERROR ] 1544687019   {"errcode":0,"msg":"接收数据成功！"}
+2018-12-13 15:45:43 [ pool-2-thread-10:1491544 ] - [ ERROR ] 1544687079   {"errcode":0,"msg":"接收数据成功！"}
+2018-12-13 15:46:44 [ pool-2-thread-12:1552837 ] - [ ERROR ] 1544687140   {"errcode":0,"msg":"接收数据成功！"}
+2018-12-13 15:47:45 [ pool-2-thread-7:1613676 ] - [ ERROR ] 1544687202   {"errcode":0,"msg":"接收数据成功！"}
+2018-12-13 15:48:53 [ pool-2-thread-6:1681034 ] - [ ERROR ] 1544687269   {"errcode":0,"msg":"接收数据成功！"}
+2018-12-13 15:50:00 [ pool-2-thread-10:1748767 ] - [ ERROR ] 1544687329   {"errcode":0,"msg":"接收数据成功！"}
+2018-12-13 15:50:49 [ pool-2-thread-7:1796981 ] - [ ERROR ] 1544687398   {"errcode":0,"msg":"接收数据成功！"}
+2018-12-13 16:07:28 [ pool-1-thread-5:11533 ] - [ ERROR ] 异常
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1967)
+	at com.mx.util.Data.run(Data.java:43)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

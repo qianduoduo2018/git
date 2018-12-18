@@ -1,0 +1,126 @@
+2018-11-22 10:43:00 [ pool-2-thread-7:641383 ] - [ ERROR ] 异常
+java.util.ConcurrentModificationException
+	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1442)
+	at java.util.HashMap$EntryIterator.next(HashMap.java:1476)
+	at java.util.HashMap$EntryIterator.next(HashMap.java:1474)
+	at com.mx.util.Isonline.run(Isonline.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-22 10:43:02 [ WebSocketConnectReadThread-112:642952 ] - [ ERROR ] 异常
+net.sf.json.JSONException: JSONObject["image"] not found.
+	at net.sf.json.JSONObject.getString(JSONObject.java:1847)
+	at com.mx.util.Websocket$Client.onMessage(Websocket.java:121)
+	at org.java_websocket.client.WebSocketClient.onWebsocketMessage(WebSocketClient.java:492)
+	at org.java_websocket.drafts.Draft_6455.processFrame(Draft_6455.java:677)
+	at org.java_websocket.WebSocketImpl.decodeFrames(WebSocketImpl.java:367)
+	at org.java_websocket.WebSocketImpl.decode(WebSocketImpl.java:212)
+	at org.java_websocket.client.WebSocketClient.run(WebSocketClient.java:417)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-22 10:43:02 [ WebSocketConnectReadThread-112:642955 ] - [ ERROR ] {"__time__":1542854576,"cmd":601,"content":{"actionId":"anchorAlbum","allinLevel":0,"burstClick":0,"eventFrom":"","giftMobileUrl":"/fxstatic/images/giftres/1068/1068_1510132271.zip","giftUrl":"/fxstatic/images/giftres/1068/8a6858337286c6f86edbab48d05f62c6.swf","giftid":1068,"happyObj":0,"happyType":0,"isAlbum":2,"num":1,"price":200,"receiverid":1120555109,"receiverkgid":1120555109,"receivername":"萱小萱","receiverrichlevel":12,"roomid":1412185,"senderid":1349363823,"senderkgid":1349363823,"sendername":"萱小萱de不离","senderrichlevel":7,"shape":"","tip":"萱小萱de不离给萱小萱赠送了1个精装专辑","token":"","type":1,"userLogo":"http://s3.fx.kgimg.com/v2/fxuserlogo/196289f62d337fe10cf860d9c1efddb0.jpg_45x45.jpg"},"gid":262932993838956543,"receiverid":0,"roomid":1412185,"rpt":0,"senderid":1349363823,"time":1542854576,"ext":"%7B%22ui%22%3A0%2C%22isSpRoom%22%3A0%2C%22stli%22%3A%7B%22st%22%3A7%2C%22sl%22%3A0%2C%22isAdmin%22%3A1%7D%2C%22userGuard%22%3A%5B%5D%2C%22littleGuard%22%3A%7B%22l%22%3A1%7D%2C%22starCard%22%3A0%2C%22external%22%3A0%2C%22exMemo%22%3A%22%22%2C%22p%22%3Atrue%2C%22worship%22%3A3%2C%22z%22%3A0%2C%22isGoldFans%22%3A0%2C%22token%22%3A%22%22%2C%22kugouId%22%3A0%2C%22starFollower%22%3A%7B%22l%22%3A0%7D%2C%22v_tme%22%3A0%2C%22v_kg%22%3A0%2C%22isAndroid%22%3A0%2C%22clientPlat%22%3A0%7D","sinfo":{"light":1,"svipl":0,"svip":0,"de":0}}
+2018-11-22 10:45:03 [ pool-2-thread-5:763666 ] - [ ERROR ] 异常
+java.util.ConcurrentModificationException
+	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1442)
+	at java.util.HashMap$EntryIterator.next(HashMap.java:1476)
+	at java.util.HashMap$EntryIterator.next(HashMap.java:1474)
+	at com.mx.util.Isonline.run(Isonline.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-22 10:47:01 [ pool-2-thread-8:881510 ] - [ ERROR ] 1542854763   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 10:48:02 [ pool-2-thread-7:942831 ] - [ ERROR ] 1542854819   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 10:49:03 [ pool-2-thread-6:1003510 ] - [ ERROR ] 1542854886   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 10:50:04 [ pool-2-thread-15:1064538 ] - [ ERROR ] 1542854944   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 10:51:05 [ pool-2-thread-8:1125683 ] - [ ERROR ] 1542855006   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 10:52:06 [ pool-2-thread-8:1186522 ] - [ ERROR ] 1542855065   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 10:52:20 [ pool-1-thread-14:1200460 ] - [ ERROR ] 1542855126   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 10:53:07 [ pool-2-thread-14:1247555 ] - [ ERROR ] 1542855143   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 10:54:08 [ pool-2-thread-9:1308654 ] - [ ERROR ] 1542855185   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 10:55:09 [ pool-2-thread-7:1369553 ] - [ ERROR ] 1542855246   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 10:56:10 [ pool-2-thread-3:1430532 ] - [ ERROR ] 1542855310   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 10:57:11 [ pool-2-thread-4:1491527 ] - [ ERROR ] 1542855374   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 10:58:12 [ pool-2-thread-7:1552749 ] - [ ERROR ] 1542855436   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 10:59:13 [ pool-2-thread-5:1613526 ] - [ ERROR ] 1542855491   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:00:14 [ pool-2-thread-6:1674829 ] - [ ERROR ] 1542855552   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:01:15 [ pool-2-thread-4:1735558 ] - [ ERROR ] 1542855613   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:02:16 [ pool-2-thread-5:1796564 ] - [ ERROR ] 1542855674   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:02:20 [ pool-1-thread-16:1801183 ] - [ ERROR ] 1542855736   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:03:17 [ pool-2-thread-14:1857548 ] - [ ERROR ] 1542855740   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:04:18 [ pool-2-thread-13:1918551 ] - [ ERROR ] 1542855796   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:05:19 [ pool-2-thread-13:1979664 ] - [ ERROR ] 1542855857   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:06:20 [ pool-2-thread-7:2040696 ] - [ ERROR ] 1542855919   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:07:21 [ pool-2-thread-11:2101581 ] - [ ERROR ] 1542855980   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:08:22 [ pool-2-thread-3:2162566 ] - [ ERROR ] 1542856041   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:09:23 [ pool-2-thread-7:2223623 ] - [ ERROR ] 1542856102   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:10:24 [ pool-2-thread-8:2284650 ] - [ ERROR ] 1542856162   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:11:25 [ pool-2-thread-15:2345620 ] - [ ERROR ] 1542856226   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:12:21 [ pool-1-thread-19:2401956 ] - [ ERROR ] 1542856284   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:12:26 [ pool-2-thread-4:2406495 ] - [ ERROR ] 1542856340   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:13:27 [ pool-2-thread-3:2467631 ] - [ ERROR ] 1542856345   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:14:28 [ pool-2-thread-3:2528595 ] - [ ERROR ] 1542856406   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:14:32 [ pool-2-thread-5:2532915 ] - [ ERROR ] 异常
+java.util.ConcurrentModificationException
+	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1442)
+	at java.util.HashMap$EntryIterator.next(HashMap.java:1476)
+	at java.util.HashMap$EntryIterator.next(HashMap.java:1474)
+	at com.mx.util.Isonline.run(Isonline.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-22 11:15:29 [ pool-2-thread-11:2589589 ] - [ ERROR ] 1542856468   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:16:30 [ pool-2-thread-8:2650627 ] - [ ERROR ] 1542856528   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:17:31 [ pool-2-thread-12:2711701 ] - [ ERROR ] 1542856589   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:18:32 [ pool-2-thread-4:2772629 ] - [ ERROR ] 1542856653   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:19:33 [ pool-2-thread-13:2833620 ] - [ ERROR ] 1542856714   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:19:38 [ pool-2-thread-7:2838704 ] - [ ERROR ] 异常
+java.util.ConcurrentModificationException
+	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1442)
+	at java.util.HashMap$EntryIterator.next(HashMap.java:1476)
+	at java.util.HashMap$EntryIterator.next(HashMap.java:1474)
+	at com.mx.util.Isonline.run(Isonline.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-22 11:20:34 [ pool-2-thread-3:2894622 ] - [ ERROR ] 1542856774   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:21:35 [ pool-2-thread-1:2955823 ] - [ ERROR ] 1542856833   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:22:20 [ pool-1-thread-26:3000601 ] - [ ERROR ] 1542856894   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:22:36 [ pool-2-thread-4:3016567 ] - [ ERROR ] 1542856939   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:23:37 [ pool-2-thread-14:3077619 ] - [ ERROR ] 1542856958   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:24:38 [ pool-2-thread-11:3138654 ] - [ ERROR ] 1542857016   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:25:39 [ pool-2-thread-11:3199753 ] - [ ERROR ] 1542857078   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:26:40 [ pool-2-thread-1:3260928 ] - [ ERROR ] 1542857140   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:27:41 [ pool-2-thread-1:3321650 ] - [ ERROR ] 1542857199   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:28:42 [ pool-2-thread-7:3382905 ] - [ ERROR ] 1542857260   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:29:43 [ pool-2-thread-4:3444059 ] - [ ERROR ] 1542857326   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:30:44 [ pool-2-thread-15:3504646 ] - [ ERROR ] 1542857383   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:31:45 [ pool-2-thread-15:3565651 ] - [ ERROR ] 1542857443   {"errcode":0,"msg":"接收数据成功！"}
+2018-11-22 11:31:50 [ pool-2-thread-3:3570900 ] - [ ERROR ] 异常
+java.util.ConcurrentModificationException
+	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1442)
+	at java.util.HashMap$EntryIterator.next(HashMap.java:1476)
+	at java.util.HashMap$EntryIterator.next(HashMap.java:1474)
+	at com.mx.util.Isonline.run(Isonline.java:80)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-22 11:32:20 [ pool-1-thread-39:3600620 ] - [ ERROR ] 1542857504   {"errcode":0,"msg":"接收数据成功！"}
